@@ -5,15 +5,14 @@ import card1 from "../../public/card1.jpeg";
 import card2 from "../../public/card2.jpeg";
 import card3 from "../../public/card3.jpeg";
 import card4 from "../../public/card4.jpeg";
-import { IoArrowDownCircleOutline } from "react-icons/io5";
-import { FaArrowDownLong } from "react-icons/fa6";
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 export default function HomeSection() {
   return (
-    <div className="w-full h-auto py-[120px] relative">
+    <div className="w-full h-auto pb-20 relative">
       <div className="grid sm:grid-cols-2">
-        <div className="sm:w-3/4 content section items-center flex-row justify-center sm:mt-32">
-          <p className="text-4xl font-bold">REDACTED FINANCE</p>
+        <div className="sm:w-3/4 content section items-center flex-row justify-center mt-32">
+          <p className="text-4xl font-bold text-white">REDACTED FINANCE</p>
           <p className="mt-8 text-gray-400">
             Empowering on-chain liquidity, governance, and cash flow for DeFi
             protocols

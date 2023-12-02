@@ -15,10 +15,9 @@ export default function ProjectCard({
       <div
         style={{
           backgroundImage: `url(${imgUrl.src})`,
-          width: "100%",
-          height: 320,
+          
         }}
-        className="bg-cover bg-no-repeat bg-center rounded-t-2xl pt-4"
+        className="bg-cover bg-no-repeat bg-center rounded-t-2xl pt-4 w-full sm:h-[320px] h-[240px]"
       >
         <div className="w-fit bg-gray-900/75 text-white px-3 py-2 pr-6 rounded-r-full relative">
           <div className="flex items-center">
