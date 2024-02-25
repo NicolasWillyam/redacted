@@ -37,45 +37,40 @@ export default function HomeSection() {
       className="w-full h-auto pb-20 relative"
     >
       <div className="grid sm:grid-cols-2 ">
-        <div className=" content section items-center flex-row justify-center mt-24">
+        <div className=" content section items-center flex-row justify-center mt-24 leading-snug">
           <motion.div
             variants={slideInFromLeft(0.5)}
             className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
           >
-            <span>
-              Providing
+            <div className="leading-tight">
+              Uncle Pepe Coin <br /> on
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
                 {" "}
-                the best{" "}
+                Solana{" "}
               </span>
-              Finance project
-            </span>
+             
+            </div>
           </motion.div>
 
           <motion.div
             variants={slideInFromLeft(0.75)}
-            className="mt-8 text-gray-400"
+            className="mt-8 text-gray-400 text-[14px] leading-[22px]"
           >
-            Empowering on-chain liquidity, governance, and cash flow for DeFi
-            protocols
+            
+            At Uncle PepeCoin, we're pioneering the next chapter in cryptocurrency, boldly positioning ourselves as the "Doge Killer" with a clear mission to dethrone Dogecoin from its current pedestal. Our innovative approach, driven by a commitment to efficiency, speed, and community engagement, sets us apart in the digital currency landscape. We're not just creating a cryptocurrency; we're building a movement. With PepeCoin, we're offering more than just an alternative—we're providing a superior choice that redefines the future of digital transactions. Join us as we embark on this journey to revolutionize the crypto space, making Doge watch from the sidelines as PepeCoin takes the lead.
+                          
           </motion.div>
-          <motion.div variants={slideInFromLeft(0.75)}>
-            <button className="bg-white w-full sm:w-fit mt-8 text-black px-9 py-3 text-[16px] font-medium rounded-full">
-              Learn More
-            </button>
-          </motion.div>
+          
         </div>
         <motion.div
           variants={slideInFromRight(0.75)}
-          className="sm:flex hidden items-center justify-center -z-10"
+          className="sm:flex mt-20 hidden items-center justify-center -z-10"
         >
-          <video autoPlay loop className="w-[420px] h-[420px]">
-            <source src="/spin.webm" />
-          </video>
+           <Image src="/uncle-pepe-logo.png" width={420} height={420} alt="image logo" />
         </motion.div>
       </div>
 
-      <motion.div
+      {/* <motion.div
         variants={objectVariants}
         initial="initial"
         animate="animate"
@@ -85,7 +80,7 @@ export default function HomeSection() {
         <ProjectCard name="Pirex" imgUrl={card2} />
         <ProjectCard name="Hidden Hand" imgUrl={card3} />
         <ProjectCard name="Dinero" imgUrl={card4} />
-      </motion.div>
+      </motion.div> */}
     </motion.div>
   );
 }

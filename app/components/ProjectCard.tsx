@@ -38,7 +38,7 @@ export default function ProjectCard({
           <div className="flex items-center">
             <div className="w-7 h-7 bg-black rounded-full flex items-center justify-center">
               <Image
-                src="/logo.png"
+                src="/uncle-pepe-logo.png"
                 width={16}
                 height={16}
                 alt="image logo"

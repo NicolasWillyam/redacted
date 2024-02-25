@@ -61,7 +61,7 @@ export default function ContentSection({
           className="flex items-center"
         >
           <div className="h-10 w-10 bg-gray-800 rounded-full flex items-center justify-center">
-            <Image src="/logo.png" width={50} height={50} alt="image logo" />
+            <Image src="/uncle-pepe-logo.png" width={50} height={50} alt="image logo" />
           </div>
           <p className="text-[16px] font-medium ml-3 text-white">{name}</p>
         </motion.div>
@@ -88,9 +88,9 @@ export default function ContentSection({
           drag
           className=""
         >
-          <button className="bg-white mt-10 text-black px-9 py-3 text-[16px] font-medium rounded-full">
-            Launch App
-          </button>
+          <button className="text-[16px] mt-8 font-medium py-2 px-8 bg-blue-600 rounded-lg hover:bg-blue-700 duration-700 text-white">
+          Follow us
+        </button>
         </motion.div>
         <motion.div
           initial={{ opacity: 0.5, scale: 0.5 }}

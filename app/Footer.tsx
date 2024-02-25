@@ -68,9 +68,9 @@ export default function Footer() {
       <div className="mt-44 w-full sm:flex justify-between">
         <div className="flex items-center">
           <div className="h-8 w-8 rounded-full flex items-center justify-center">
-            <Image src="/logo.png" width={24} height={24} alt="image logo" />
+            <Image src="/uncle-pepe-logo.png" width={24} height={24} alt="image logo" />
           </div>
-          <p className="uppercase text-[20px] ml-1 font-medium text-white">Redacted</p>
+          <p className="uppercase text-[20px] ml-1 font-medium text-white">Uncle Pepe coin</p>
         </div>
         
         <div className="sm:w-2/3 grid grid-cols-2 sm:grid-cols-4 mt-4 sm:mt-0 gap-10">
@@ -103,7 +103,7 @@ export default function Footer() {
         </div>
       </div>
       <hr className="bg-gray-800 my-10" />
-      <p className="text-[14px] text-gray-400">© 2023 Redacted</p>
+      <p className="text-[14px] text-gray-400">© 2024 Uncle Pepe Coin</p>
     </div>
   );
 }
